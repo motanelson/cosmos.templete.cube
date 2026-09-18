@@ -210,5 +210,139 @@ For many young people in the 1980s, it was their first programming experience.
 
 ---
 
+8. The birth of QBasic
 
+In the 1980s, Microsoft developed new versions of BASIC.
+
+After GW-BASIC came QuickBASIC, which introduced a very important change:
+
+compilation.
+
+Instead of relying exclusively on an interpreter:
+
+BASIC code
+     ↓
+interpreter
+     ↓
+CPU
+
+one could do this:
+
+BASIC code
+     ↓
+compiler
+     ↓
+executable program
+     ↓
+DOS
+
+Microsoft QuickBASIC became quite popular.
+
+And from it came the environment that many people got to know in the 1990s:
+
+QBasic
+
+
+---
+
+9. QBasic
+
+QBasic was included by Microsoft in versions of MS-DOS, including MS-DOS 5.0.
+
+It was an integrated environment:
+
+┌─────────────────────────────┐
+│ QBasic                      │
+├─────────────────────────────┤
+│ code                        │
+│                             │
+│ 10 PRINT "HELLO"            │
+│ 20 GOTO 10                  │
+│                             │
+├─────────────────────────────┤
+│ RUN                         │
+└─────────────────────────────┘
+
+The user could:
+
+write;
+
+run;
+
+correct;
+
+debug;
+
+run again.
+
+
+All within the same environment.
+
+
+---
+
+10. QBasic became a gateway
+
+And this is probably QBasic's greatest legacy.
+
+A child or teenager could write:
+
+SCREEN 13
+CIRCLE (100,100),30
+
+and immediately see something on the screen.
+
+They could create:
+
+games;
+
+drawings;
+
+calculators;
+
+educational programs;
+
+animations;
+
+small management systems.
+
+
+It was programming that was very close to the hardware of the time.
+
+
+---
+
+11. BASIC games
+
+Many old games were written in BASIC or variants of BASIC.
+
+A game could start with something extremely simple:
+
+CLS
+PRINT "GAME"
+PRINT
+PRINT "1 - RIGHT"
+PRINT "2 - LEFT"
+INPUT A
+
+And then evolve to include graphics, sound, and controls.  BASIC allowed the user to start with:
+
+PRINT
+INPUT
+IF
+GOTO
+
+and gradually learn:
+
+variables
+loops
+arrays
+subroutines
+functions
+files
+graphics
+sound
+
+
+---
 
