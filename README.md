@@ -435,3 +435,195 @@ QB64
 
 
 ---
+
+15. FreeBASIC
+
+FreeBASIC emerged in the 2000s as a compiler inspired by QuickBASIC.
+
+The idea was to allow code to be written using a familiar syntax:
+
+PRINT "Hello"
+
+while generating native programs for modern computers.
+
+Unlike traditional interpreted BASIC:
+
+BASIC
+ ↓
+interpreter
+ ↓
+execution
+
+we have:
+
+BASIC
+ ↓
+FreeBASIC compiler
+ ↓
+native code
+ ↓
+modern CPU
+
+FreeBASIC also significantly expanded the language.
+
+It is possible to write more modern, structured code using:
+
+types;
+
+structures;
+
+pointers;
+
+functions;
+
+objects;
+
+libraries;
+
+API access;
+
+native compilation.
+
+
+Therefore, it is simultaneously a tribute to classic BASIC and a much more powerful language.
+
+
+---
+
+16. QB64
+
+QB64 followed a slightly different philosophy.
+
+The fundamental idea is:
+
+> to take the style and compatibility of QuickBASIC/QBasic and make it work on modern systems.
+
+
+
+An old program like:
+
+SCREEN 13
+PRINT "HELLO"
+
+can be adapted to run on current computers.
+
+QB64 translates BASIC code into code that can be compiled for modern platforms.
+
+The conceptual architecture is:
+
+QBasic program
+       ↓
+      QB64
+       ↓
+translation/compilation
+       ↓
+native code
+       ↓
+Windows / Linux / macOS
+
+This allows for the recovery of a vast amount of code and knowledge from the DOS era.
+
+
+---
+
+17. What happened to memory?
+
+The evolution of memory explains much of the history of BASIC.  1970s BASIC
+
+a few KB
+   ↓
+small programs
+
+DOS BASIC
+
+640 KB of conventional memory
+   ↓
+larger programs
+
+QBasic
+
+286/386/486 PCs
+   ↓
+more memory
+   ↓
+more complex graphics and games
+
+FreeBASIC / QB64
+
+GBs of RAM
+   ↓
+64-bit CPU
+   ↓
+modern operating systems
+   ↓
+much larger programs
+
+The interesting thing is that the syntax can seem old-fashioned while the underlying machine is completely modern.
+
+
+---
+
+18. The complete journey
+
+We can represent the history like this:
+
+1964
+Dartmouth BASIC
+     │
+     ▼
+time-sharing
+     │
+     ▼
+1975
+Altair BASIC
+     │
+     ▼
+microcomputers
+     │
+     ├── Apple BASIC
+     ├── Atari BASIC
+     ├── Commodore BASIC
+     ├── TRS-80 BASIC
+     └── Microsoft BASIC
+             │
+             ▼
+       IBM PC / DOS
+             │
+             ▼
+         GW-BASIC
+             │
+             ▼
+        QuickBASIC
+             │
+             ▼
+           QBasic
+             │
+             ▼
+      Windows / Visual Basic
+             │
+             ├──────────────┐
+             ▼              ▼
+        modern           classic BASIC
+        languages ​​           │
+                             ▼
+                        FreeBASIC
+                             │
+                             ▼
+                           QB64
+                             │
+                             ▼
+                     modern PCs
+
+And the most interesting thing of all
+
+BASIC started with a very simple mission: to allow ordinary people to learn how to program.
+
+It went through several generations of hardware:
+
+mainframes → microcomputers → DOS → Windows → modern PCs.
+
+And although the technology has changed completely, the original idea lives on:
+
+PRINT "HELLO WORLD"
+
+It is one of the few languages ​​where we can take an idea born in the mainframe era of the 1960s, pass through the Apple II, Atari, Commodore, TRS-80, IBM PC, MS-DOS, and QBasic, and arrive at a modern computer with FreeBASIC or QB64 while maintaining a recognizable syntax.
