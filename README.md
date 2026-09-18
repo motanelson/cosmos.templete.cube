@@ -346,3 +346,92 @@ sound
 
 ---
 
+12. But the world was changing
+
+In the 1990s, professional programming was increasingly dominated by languages ​​and tools such as:
+
+C;
+
+C++;
+
+Pascal/Delphi;
+
+Assembly;
+
+later Java;
+
+languages ​​for Windows.
+
+
+Classic BASIC began to seem outdated.
+
+Especially because hardware was becoming much more powerful.
+
+The BASIC that had originally been fantastic on a computer with tens of kilobytes of memory seemed limited on a PC with tens or hundreds of megabytes.
+
+
+---
+
+13. Visual Basic transforms BASIC
+
+Microsoft didn't abandon BASIC.
+
+Instead, it transformed it.
+
+Visual Basic emerged, introducing a different philosophy:
+
+drag button
+      ↓
+design window
+      ↓
+write code
+      ↓
+Windows program
+
+This made BASIC very important again for Windows application development.
+
+But it was already very different from QBasic.
+
+The programmer was now working with:
+
+windows
+events
+buttons
+menus
+objects
+DLLs
+APIs
+
+
+---
+
+14. And what happened to classic BASIC?
+
+This is where a curious story begins.
+
+Many people still liked the style:
+
+10 PRINT ...
+20 IF ...
+30 GOTO ...
+
+or the structured style of QuickBASIC/QBasic:
+
+SUB MyRoutine
+   ...
+END SUB
+
+But they no longer wanted to be tied to DOS or old hardware.
+
+Projects began to appear to carry on the spirit of QuickBASIC on modern computers.
+
+Two of the most important are:
+
+FreeBASIC
+
+and
+
+QB64
+
+
+---
