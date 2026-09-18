@@ -93,3 +93,122 @@ As a result, a program might work on one computer but require modifications to r
 
 
 ---
+
+
+5. BASIC's rivals
+
+BASIC was never alone.
+
+There were important languages ​​such as:
+
+FORTRAN
+
+Very important in science and engineering.
+
+FORTRAN
+   ↓
+science
+engineering
+numerical computing
+
+COBOL
+
+Widely used in business applications.
+
+COBOL
+   ↓
+banks
+businesses
+data processing
+
+Pascal
+
+Became particularly popular in education and among programmers who wanted a more structured language.
+
+Pascal
+   ↓
+education
+structured programming
+development
+
+C
+
+During the 1970s and 1980s, C became extremely important, especially in systems development.
+
+C
+ ↓
+Unix
+ ↓
+operating systems
+ ↓
+software
+
+However, BASIC had a huge advantage for the beginner:
+
+it was very easy to get started.
+
+
+---
+
+6. BASIC comes to the IBM PC
+
+When IBM launched the IBM PC in 1981, BASIC was among the languages ​​available for the machine.
+
+There were versions of BASIC associated with both IBM and Microsoft.
+
+Later, Microsoft released the famous:
+
+GW-BASIC
+
+which became extremely well-known among PC users.
+
+A program could be written directly within the BASIC environment:
+
+10 CLS
+20 PRINT "HELLO WORLD"
+30 GOTO 20
+
+There was no need to use a traditional compiler to start experimenting.
+
+The interpreter read the instructions and executed them.
+
+
+---
+
+7. The personal computer transforms BASIC
+
+This is where BASIC gained a feature that made it legendary.
+
+The computer ceased to be merely a machine for running other people's programs.
+
+It became a machine where the user themselves could write programs.
+
+For example:
+
+PC
+│
+├── BASIC
+│
+├── writing code
+│
+├── RUN
+│
+└── result
+
+It was almost a direct relationship:
+
+KEYBOARD
+   ↓
+BASIC
+   ↓
+PROGRAM
+   ↓
+COMPUTER
+
+For many young people in the 1980s, it was their first programming experience.
+
+
+---
+
+
+
